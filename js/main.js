@@ -5,8 +5,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Simulation d'une requête
     setTimeout(() => {
-        statusElement.textContent = "Hors ligne";
-        statusElement.style.color = "red";
-        playerCountElement.textContent = "0";
+        statusElement.textContent = "En ligne";
+        statusElement.style.color = "gren";
+        playerCountElement.textContent = "...";
     }, 1000);
 });
