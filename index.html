@@ -8,67 +8,43 @@
     <script src="js/main.js" defer></script>
 </head>
 <body>
-    <!-- En-tête avec navigation -->
-    <header class="hero">
-        <div class="overlay">
-            <div class="container">
-                <img src="img/logo.png" alt="BalkAnarchy Logo" class="logo" onclick="window.location.href='index.html'">
-                <nav>
-                    <ul class="nav-links">
-                        <li><a href="index.html" class="active">Accueil</a></li>
-                        <li><a href="videos.html">Vidéos</a></li>
-                        <li><a href="news.html">News</a></li>
-                        <li><a href="how-to-join.html">Comment Rejoindre</a></li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="hero-content">
-                <h1>Bienvenue sur BalkAnarchy</h1>
-                <p>Un serveur Minecraft sans limite ni règle. Rejoignez l'expérience dès aujourd'hui !</p>
-                <a href="how-to-join.html" class="btn">Rejoindre Maintenant</a>
-            </div>
+    <header>
+        <div class="container">
+            <h1>BalkAnarchy</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Accueil</a></li>
+                    <li><a href="videos.html">Vidéos</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="how-to-join.html">Rejoindre</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
 
-    <!-- Section d'informations sur le serveur -->
     <main>
-        <section id="server-status">
-            <div class="container">
-                <h2>Statut du Serveur</h2>
-                <p><strong>Adresse IP :</strong> <code>86.104.252.35</code></p>
-                <p id="status">Statut : <span>Chargement...</span></p>
-                <p id="player-count">Joueurs connectés : <span>?</span></p>
-            </div>
+        <section id="intro">
+            <h2>Bienvenue sur BalkAnarchy</h2>
+            <p>BalkAnarchy est un serveur Minecraft unique où règne l'anarchie. Découvrez un monde sans limites !</p>
+            <p><strong>Adresse IP :</strong> 86.104.252.35</p>
+            <a href="how-to-join.html" class="btn">Rejoindre le Serveur</a>
         </section>
 
-        <!-- Section sur l'événement principal -->
-        <section id="event-info" class="highlight">
-            <div class="container">
-                <h2>Événement Annuel</h2>
-                <p>L'événement principal de BalkAnarchy débute le <strong>20 décembre</strong> et dure un mois. Plongez dans une aventure épique sans limites !</p>
-                <a href="news.html" class="btn-secondary">Découvrir les Événements</a>
-            </div>
+        <section id="discord">
+            <h2>Rejoignez notre communauté</h2>
+            <p>Discutez avec les autres joueurs, partagez vos aventures, et restez informé des dernières nouvelles.</p>
+            <a href="https://discord.gg/votre-invitation" target="_blank" class="btn">Rejoindre le Discord</a>
         </section>
 
-        <!-- Section sur le serveur -->
-        <section id="extras">
-            <div class="container">
-                <h2>À Propos du Serveur</h2>
-                <p>BalkAnarchy est un serveur Minecraft modé basé sur la version 1.21 Fabric. Explorez un monde sans frontières, incarnez votre propre destin, et défiez toutes les attentes dans cette expérience anarchique !</p>
-            </div>
+        <section id="ytb">
+            <h2>Découvrez BalkAnarchy sur YouTube</h2>
+            <p>Abonnez-vous à Balkai pour des vidéos exclusives et des informations sur le serveur !</p>
+            <a href="https://www.youtube.com/channel/UCID-Balkai" target="_blank" class="btn">Voir la chaîne</a>
         </section>
     </main>
 
-    <!-- Pied de page -->
     <footer>
-        <div class="container">
-            <p>&copy; 2024 BalkAnarchy. Tous droits réservés.</p>
-            <p>Suivez-nous sur : 
-                <a href="#" class="social-link">Twitter</a> | 
-                <a href="#" class="social-link">Discord</a> | 
-                <a href="#" class="social-link">YouTube</a>
-            </p>
-        </div>
+        <p>&copy; 2024 BalkAnarchy. Tous droits réservés.</p>
     </footer>
 </body>
 </html>
