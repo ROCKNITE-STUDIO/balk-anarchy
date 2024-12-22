@@ -1,12 +1,7 @@
-document.addEventListener("DOMContentLoaded", () => {
-    // Simulez le statut du serveur
-    const statusElement = document.querySelector("#status span");
-    const playerCountElement = document.querySelector("#player-count span");
-
-    // Simulation d'une requête
-    setTimeout(() => {
-        statusElement.textContent = "En ligne";
-        statusElement.style.color = "green";
-        playerCountElement.textContent = "...";
-    }, 1000);
+// Affichage du statut du serveur (fictif, remplacez par une API si nécessaire)
+document.addEventListener('DOMContentLoaded', () => {
+    const statusElement = document.getElementById('server-status');
+    if (statusElement) {
+        statusElement.innerHTML = "Statut du serveur : <span>En ligne</span>";
+    }
 });
